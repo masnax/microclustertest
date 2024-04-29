@@ -1,7 +1,7 @@
 // Package types provides shared types and structs.
 package types
 
-import "github.com/masnax/microcluster/rest/types"
+import "github.com/masnax/microclustertest/rest/types"
 
 // ExtendedType is an example of an API type usable by MicroCluster but defined by this example project.
 type ExtendedType struct {

@@ -4,7 +4,7 @@ import (
 	"fmt"
 	"os"
 
-	"github.com/masnax/microcluster/microcluster"
+	"github.com/masnax/microclustertest/microcluster"
 	"github.com/olekukonko/tablewriter"
 	"github.com/spf13/cobra"
 )

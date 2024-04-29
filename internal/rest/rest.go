@@ -16,11 +16,11 @@ import (
 	"github.com/canonical/lxd/shared/logger"
 	"github.com/gorilla/mux"
 
-	"github.com/masnax/microcluster/cluster"
-	"github.com/masnax/microcluster/internal/rest/access"
-	"github.com/masnax/microcluster/internal/rest/client"
-	internalState "github.com/masnax/microcluster/internal/state"
-	"github.com/masnax/microcluster/rest"
+	"github.com/masnax/microclustertest/cluster"
+	"github.com/masnax/microclustertest/internal/rest/access"
+	"github.com/masnax/microclustertest/internal/rest/client"
+	internalState "github.com/masnax/microclustertest/internal/state"
+	"github.com/masnax/microclustertest/rest"
 )
 
 func handleAPIRequest(action rest.EndpointAction, state *internalState.State, w http.ResponseWriter, r *http.Request) response.Response {
