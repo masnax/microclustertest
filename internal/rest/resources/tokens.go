@@ -12,12 +12,12 @@ import (
 	"github.com/canonical/lxd/shared/logger"
 	"github.com/gorilla/mux"
 
-	"github.com/canonical/microcluster/cluster"
-	"github.com/canonical/microcluster/internal/rest/access"
-	internalTypes "github.com/canonical/microcluster/internal/rest/types"
-	"github.com/canonical/microcluster/internal/state"
-	"github.com/canonical/microcluster/rest"
-	"github.com/canonical/microcluster/rest/types"
+	"github.com/masnax/microcluster/cluster"
+	"github.com/masnax/microcluster/internal/rest/access"
+	internalTypes "github.com/masnax/microcluster/internal/rest/types"
+	"github.com/masnax/microcluster/internal/state"
+	"github.com/masnax/microcluster/rest"
+	"github.com/masnax/microcluster/rest/types"
 )
 
 var tokensCmd = rest.Endpoint{

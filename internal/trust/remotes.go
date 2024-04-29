@@ -16,10 +16,10 @@ import (
 	"github.com/google/renameio"
 	"gopkg.in/yaml.v2"
 
-	"github.com/canonical/microcluster/client"
-	internalClient "github.com/canonical/microcluster/internal/rest/client"
-	internalTypes "github.com/canonical/microcluster/internal/rest/types"
-	"github.com/canonical/microcluster/rest/types"
+	"github.com/masnax/microcluster/client"
+	internalClient "github.com/masnax/microcluster/internal/rest/client"
+	internalTypes "github.com/masnax/microcluster/internal/rest/types"
+	"github.com/masnax/microcluster/rest/types"
 )
 
 // Remotes is a convenient alias as we will often deal with groups of yaml files.

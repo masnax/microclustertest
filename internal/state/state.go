@@ -7,13 +7,13 @@ import (
 	"github.com/canonical/lxd/shared"
 	"github.com/canonical/lxd/shared/api"
 
-	"github.com/canonical/microcluster/client"
-	"github.com/canonical/microcluster/internal/db"
-	"github.com/canonical/microcluster/internal/endpoints"
-	"github.com/canonical/microcluster/internal/extensions"
-	internalClient "github.com/canonical/microcluster/internal/rest/client"
-	"github.com/canonical/microcluster/internal/sys"
-	"github.com/canonical/microcluster/internal/trust"
+	"github.com/masnax/microcluster/client"
+	"github.com/masnax/microcluster/internal/db"
+	"github.com/masnax/microcluster/internal/endpoints"
+	"github.com/masnax/microcluster/internal/extensions"
+	internalClient "github.com/masnax/microcluster/internal/rest/client"
+	"github.com/masnax/microcluster/internal/sys"
+	"github.com/masnax/microcluster/internal/trust"
 )
 
 // State is a gateway to the stateful components of the microcluster daemon.

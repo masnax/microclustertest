@@ -3,9 +3,9 @@ package main
 import (
 	"fmt"
 
-	microClient "github.com/canonical/microcluster/client"
-	"github.com/canonical/microcluster/example/client"
-	"github.com/canonical/microcluster/microcluster"
+	microClient "github.com/masnax/microcluster/client"
+	"github.com/masnax/microcluster/example/client"
+	"github.com/masnax/microcluster/microcluster"
 	"github.com/spf13/cobra"
 )
 

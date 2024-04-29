@@ -1,7 +1,7 @@
 package types
 
 import (
-	"github.com/canonical/microcluster/rest/types"
+	"github.com/masnax/microcluster/rest/types"
 )
 
 // Server represents server status information.

@@ -5,7 +5,7 @@ import (
 	"time"
 
 	"github.com/canonical/lxd/shared/api"
-	"github.com/canonical/microcluster/internal/rest/types"
+	"github.com/masnax/microcluster/internal/rest/types"
 )
 
 // HeartbeatTimeout is the maximum request timeout for a heartbeat request.

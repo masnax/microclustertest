@@ -11,11 +11,11 @@ import (
 
 	"github.com/canonical/lxd/lxd/response"
 
-	"github.com/canonical/microcluster/client"
-	"github.com/canonical/microcluster/internal/rest/access"
-	"github.com/canonical/microcluster/internal/state"
-	"github.com/canonical/microcluster/rest"
-	"github.com/canonical/microcluster/rest/types"
+	"github.com/masnax/microcluster/client"
+	"github.com/masnax/microcluster/internal/rest/access"
+	"github.com/masnax/microcluster/internal/state"
+	"github.com/masnax/microcluster/rest"
+	"github.com/masnax/microcluster/rest/types"
 )
 
 var clusterCertificatesCmd = rest.Endpoint{

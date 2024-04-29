@@ -5,7 +5,7 @@ import (
 
 	"github.com/canonical/lxd/lxd/response"
 
-	"github.com/canonical/microcluster/internal/state"
+	"github.com/masnax/microcluster/internal/state"
 )
 
 // TrustedRequest holds data pertaining to what level of trust we have for the request.

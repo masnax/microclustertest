@@ -5,7 +5,7 @@ import (
 
 	"github.com/canonical/lxd/lxd/response"
 
-	"github.com/canonical/microcluster/state"
+	"github.com/masnax/microcluster/state"
 )
 
 // EndpointAlias represents an alias URL of and Endpoint in our API.
