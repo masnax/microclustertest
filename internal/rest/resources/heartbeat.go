@@ -12,12 +12,12 @@ import (
 	"github.com/canonical/lxd/lxd/response"
 	"github.com/canonical/lxd/shared/logger"
 
-	"github.com/masnax/microclustertest/client"
-	"github.com/masnax/microclustertest/cluster"
-	internalClient "github.com/masnax/microclustertest/internal/rest/client"
-	"github.com/masnax/microclustertest/internal/rest/types"
-	"github.com/masnax/microclustertest/internal/state"
-	"github.com/masnax/microclustertest/rest"
+	"github.com/masnax/microclustertest/v2/client"
+	"github.com/masnax/microclustertest/v2/cluster"
+	internalClient "github.com/masnax/microclustertest/v2/internal/rest/client"
+	"github.com/masnax/microclustertest/v2/internal/rest/types"
+	"github.com/masnax/microclustertest/v2/internal/state"
+	"github.com/masnax/microclustertest/v2/rest"
 )
 
 var heartbeatCmd = rest.Endpoint{

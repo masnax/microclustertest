@@ -7,7 +7,7 @@ import (
 	clusterRequest "github.com/canonical/lxd/lxd/cluster/request"
 	"github.com/canonical/lxd/shared/api"
 
-	"github.com/masnax/microclustertest/internal/rest/client"
+	"github.com/masnax/microclustertest/v2/internal/rest/client"
 )
 
 // Client is a rest client for the MicroCluster daemon.

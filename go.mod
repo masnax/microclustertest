@@ -1,4 +1,4 @@
-module github.com/masnax/microclustertest
+module github.com/masnax/microclustertest/v2
 
 go 1.22.0
 
@@ -30,7 +30,6 @@ require (
 	github.com/inconshreveable/mousetrap v1.1.0 // indirect
 	github.com/kballard/go-shellquote v0.0.0-20180428030007-95032a82bc51 // indirect
 	github.com/kr/fs v0.1.0 // indirect
-	github.com/kr/text v0.2.0 // indirect
 	github.com/mattn/go-runewidth v0.0.15 // indirect
 	github.com/muhlemmer/gu v0.3.1 // indirect
 	github.com/pkg/errors v0.9.1 // indirect
