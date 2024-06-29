@@ -37,6 +37,7 @@ type MicroCluster struct {
 
 // Args contains options for configuring MicroCluster.
 type Args struct {
+	Test        string
 	Verbose     bool
 	Debug       bool
 	StateDir    string
