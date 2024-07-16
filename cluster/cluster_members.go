@@ -8,9 +8,9 @@ import (
 
 	"github.com/canonical/lxd/lxd/db/query"
 
-	"github.com/masnax/microclustertest/v2/internal/extensions"
-	internalTypes "github.com/masnax/microclustertest/v2/internal/rest/types"
-	"github.com/masnax/microclustertest/v2/rest/types"
+	"github.com/masnax/microclustertest/v3/internal/extensions"
+	internalTypes "github.com/masnax/microclustertest/v3/internal/rest/types"
+	"github.com/masnax/microclustertest/v3/rest/types"
 )
 
 //go:generate -command mapper lxd-generate db mapper -t cluster_members.mapper.go

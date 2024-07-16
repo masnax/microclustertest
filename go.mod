@@ -1,4 +1,4 @@
-module github.com/masnax/microclustertest/v2
+module github.com/masnax/microclustertest/v3
 
 go 1.22.0
 

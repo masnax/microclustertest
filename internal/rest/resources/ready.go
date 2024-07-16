@@ -6,9 +6,9 @@ import (
 
 	"github.com/canonical/lxd/lxd/response"
 
-	"github.com/masnax/microclustertest/v2/internal/rest/access"
-	"github.com/masnax/microclustertest/v2/internal/state"
-	"github.com/masnax/microclustertest/v2/rest"
+	"github.com/masnax/microclustertest/v3/internal/rest/access"
+	"github.com/masnax/microclustertest/v3/internal/state"
+	"github.com/masnax/microclustertest/v3/rest"
 )
 
 var readyCmd = rest.Endpoint{

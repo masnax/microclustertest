@@ -12,7 +12,7 @@ import (
 
 	"github.com/canonical/lxd/lxd/db/query"
 	"github.com/canonical/lxd/shared/api"
-	"github.com/masnax/microclustertest/v2/cluster"
+	"github.com/masnax/microclustertest/v3/cluster"
 )
 
 var _ = api.ServerEnvironment{}

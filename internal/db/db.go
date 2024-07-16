@@ -14,9 +14,9 @@ import (
 	"github.com/canonical/lxd/shared"
 	"github.com/canonical/lxd/shared/logger"
 
-	"github.com/masnax/microclustertest/v2/cluster"
-	"github.com/masnax/microclustertest/v2/internal/extensions"
-	"github.com/masnax/microclustertest/v2/internal/sys"
+	"github.com/masnax/microclustertest/v3/cluster"
+	"github.com/masnax/microclustertest/v3/internal/extensions"
+	"github.com/masnax/microclustertest/v3/internal/sys"
 )
 
 // Open opens the dqlite database and loads the schema.

@@ -21,16 +21,16 @@ import (
 	"github.com/gorilla/mux"
 	"golang.org/x/sys/unix"
 
-	"github.com/masnax/microclustertest/v2/client"
-	"github.com/masnax/microclustertest/v2/cluster"
-	"github.com/masnax/microclustertest/v2/internal/rest/access"
-	internalClient "github.com/masnax/microclustertest/v2/internal/rest/client"
-	internalTypes "github.com/masnax/microclustertest/v2/internal/rest/types"
-	"github.com/masnax/microclustertest/v2/rest/types"
+	"github.com/masnax/microclustertest/v3/client"
+	"github.com/masnax/microclustertest/v3/cluster"
+	"github.com/masnax/microclustertest/v3/internal/rest/access"
+	internalClient "github.com/masnax/microclustertest/v3/internal/rest/client"
+	internalTypes "github.com/masnax/microclustertest/v3/internal/rest/types"
+	"github.com/masnax/microclustertest/v3/rest/types"
 
-	"github.com/masnax/microclustertest/v2/internal/state"
-	"github.com/masnax/microclustertest/v2/internal/trust"
-	"github.com/masnax/microclustertest/v2/rest"
+	"github.com/masnax/microclustertest/v3/internal/state"
+	"github.com/masnax/microclustertest/v3/internal/trust"
+	"github.com/masnax/microclustertest/v3/rest"
 )
 
 var clusterCmd = rest.Endpoint{

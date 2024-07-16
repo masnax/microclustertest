@@ -26,14 +26,14 @@ import (
 	"github.com/canonical/lxd/shared/revert"
 	"github.com/canonical/lxd/shared/tcp"
 
-	"github.com/masnax/microclustertest/v2/cluster"
-	"github.com/masnax/microclustertest/v2/internal/db/update"
-	"github.com/masnax/microclustertest/v2/internal/extensions"
-	"github.com/masnax/microclustertest/v2/internal/rest/client"
-	internalClient "github.com/masnax/microclustertest/v2/internal/rest/client"
-	internalTypes "github.com/masnax/microclustertest/v2/internal/rest/types"
-	"github.com/masnax/microclustertest/v2/internal/sys"
-	"github.com/masnax/microclustertest/v2/rest/types"
+	"github.com/masnax/microclustertest/v3/cluster"
+	"github.com/masnax/microclustertest/v3/internal/db/update"
+	"github.com/masnax/microclustertest/v3/internal/extensions"
+	"github.com/masnax/microclustertest/v3/internal/rest/client"
+	internalClient "github.com/masnax/microclustertest/v3/internal/rest/client"
+	internalTypes "github.com/masnax/microclustertest/v3/internal/rest/types"
+	"github.com/masnax/microclustertest/v3/internal/sys"
+	"github.com/masnax/microclustertest/v3/rest/types"
 )
 
 // DB holds all information internal to the dqlite database.

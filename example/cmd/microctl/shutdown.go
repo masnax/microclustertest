@@ -1,7 +1,7 @@
 package main
 
 import (
-	"github.com/masnax/microclustertest/v2/microcluster"
+	"github.com/masnax/microclustertest/v3/microcluster"
 	"github.com/spf13/cobra"
 )
 
