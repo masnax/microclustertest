@@ -4,7 +4,7 @@ import (
 	"encoding/base64"
 	"encoding/json"
 
-	"github.com/masnax/microclustertest/v3/rest/types"
+	"github.com/masnax/microclustertest/v0/rest/types"
 )
 
 // TokenRecord holds information for requesting a join token.

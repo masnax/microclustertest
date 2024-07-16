@@ -8,8 +8,8 @@ import (
 
 	"github.com/canonical/lxd/shared/api"
 
-	"github.com/masnax/microclustertest/v3/client"
-	"github.com/masnax/microclustertest/v3/example/api/types"
+	"github.com/masnax/microclustertest/v0/client"
+	"github.com/masnax/microclustertest/v0/example/api/types"
 )
 
 // ExtendedPostCmd is a client function that sets a context timeout and sends a POST to /1.0/extended using the given

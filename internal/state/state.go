@@ -7,13 +7,13 @@ import (
 	"github.com/canonical/lxd/shared"
 	"github.com/canonical/lxd/shared/api"
 
-	"github.com/masnax/microclustertest/v3/client"
-	"github.com/masnax/microclustertest/v3/internal/db"
-	"github.com/masnax/microclustertest/v3/internal/endpoints"
-	"github.com/masnax/microclustertest/v3/internal/extensions"
-	internalClient "github.com/masnax/microclustertest/v3/internal/rest/client"
-	"github.com/masnax/microclustertest/v3/internal/sys"
-	"github.com/masnax/microclustertest/v3/internal/trust"
+	"github.com/masnax/microclustertest/v0/client"
+	"github.com/masnax/microclustertest/v0/internal/db"
+	"github.com/masnax/microclustertest/v0/internal/endpoints"
+	"github.com/masnax/microclustertest/v0/internal/extensions"
+	internalClient "github.com/masnax/microclustertest/v0/internal/rest/client"
+	"github.com/masnax/microclustertest/v0/internal/sys"
+	"github.com/masnax/microclustertest/v0/internal/trust"
 )
 
 // State is a gateway to the stateful components of the microcluster daemon.

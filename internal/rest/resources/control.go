@@ -13,13 +13,13 @@ import (
 	"github.com/canonical/lxd/shared/logger"
 	"github.com/canonical/lxd/shared/validate"
 
-	"github.com/masnax/microclustertest/v3/internal/rest/access"
-	"github.com/masnax/microclustertest/v3/internal/rest/client"
-	internalTypes "github.com/masnax/microclustertest/v3/internal/rest/types"
-	"github.com/masnax/microclustertest/v3/internal/state"
-	"github.com/masnax/microclustertest/v3/internal/trust"
-	"github.com/masnax/microclustertest/v3/rest"
-	"github.com/masnax/microclustertest/v3/rest/types"
+	"github.com/masnax/microclustertest/v0/internal/rest/access"
+	"github.com/masnax/microclustertest/v0/internal/rest/client"
+	internalTypes "github.com/masnax/microclustertest/v0/internal/rest/types"
+	"github.com/masnax/microclustertest/v0/internal/state"
+	"github.com/masnax/microclustertest/v0/internal/trust"
+	"github.com/masnax/microclustertest/v0/rest"
+	"github.com/masnax/microclustertest/v0/rest/types"
 )
 
 var controlCmd = rest.Endpoint{
