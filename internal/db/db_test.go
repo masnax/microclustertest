@@ -13,9 +13,9 @@ import (
 	"github.com/canonical/lxd/shared/api"
 	"github.com/stretchr/testify/suite"
 
-	"github.com/masnax/microclustertest/v0/cluster"
-	"github.com/masnax/microclustertest/v0/internal/db/update"
-	"github.com/masnax/microclustertest/v0/internal/extensions"
+	"github.com/masnax/microclustertest/v1/cluster"
+	"github.com/masnax/microclustertest/v1/internal/db/update"
+	"github.com/masnax/microclustertest/v1/internal/extensions"
 )
 
 type dbSuite struct {

@@ -11,13 +11,13 @@ import (
 	"github.com/canonical/lxd/lxd/response"
 	"github.com/gorilla/mux"
 
-	"github.com/masnax/microclustertest/v0/client"
-	"github.com/masnax/microclustertest/v0/internal/rest/access"
-	internalClient "github.com/masnax/microclustertest/v0/internal/rest/client"
-	internalTypes "github.com/masnax/microclustertest/v0/internal/rest/types"
-	"github.com/masnax/microclustertest/v0/internal/state"
-	"github.com/masnax/microclustertest/v0/internal/trust"
-	"github.com/masnax/microclustertest/v0/rest"
+	"github.com/masnax/microclustertest/v1/client"
+	"github.com/masnax/microclustertest/v1/internal/rest/access"
+	internalClient "github.com/masnax/microclustertest/v1/internal/rest/client"
+	internalTypes "github.com/masnax/microclustertest/v1/internal/rest/types"
+	"github.com/masnax/microclustertest/v1/internal/state"
+	"github.com/masnax/microclustertest/v1/internal/trust"
+	"github.com/masnax/microclustertest/v1/rest"
 )
 
 var trustCmd = rest.Endpoint{

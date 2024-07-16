@@ -1,7 +1,7 @@
 package config
 
 import (
-	"github.com/masnax/microclustertest/v0/internal/state"
+	"github.com/masnax/microclustertest/v1/internal/state"
 )
 
 // Hooks holds customizable functions that can be called at varying points by the daemon to.

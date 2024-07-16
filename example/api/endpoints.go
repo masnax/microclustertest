@@ -2,7 +2,7 @@
 package api
 
 import (
-	"github.com/masnax/microclustertest/v0/rest"
+	"github.com/masnax/microclustertest/v1/rest"
 )
 
 // Endpoints is a global list of all API endpoints on the /1.0 endpoint of

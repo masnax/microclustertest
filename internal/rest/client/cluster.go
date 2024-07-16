@@ -5,8 +5,8 @@ import (
 	"time"
 
 	"github.com/canonical/lxd/shared/api"
-	"github.com/masnax/microclustertest/v0/internal/rest/types"
-	apiTypes "github.com/masnax/microclustertest/v0/rest/types"
+	"github.com/masnax/microclustertest/v1/internal/rest/types"
+	apiTypes "github.com/masnax/microclustertest/v1/rest/types"
 )
 
 // AddClusterMember records a new cluster member in the trust store of each current cluster member.

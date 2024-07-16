@@ -5,10 +5,10 @@ import (
 
 	"github.com/canonical/lxd/lxd/response"
 
-	internalTypes "github.com/masnax/microclustertest/v0/internal/rest/types"
-	"github.com/masnax/microclustertest/v0/internal/state"
-	"github.com/masnax/microclustertest/v0/rest"
-	"github.com/masnax/microclustertest/v0/rest/types"
+	internalTypes "github.com/masnax/microclustertest/v1/internal/rest/types"
+	"github.com/masnax/microclustertest/v1/internal/state"
+	"github.com/masnax/microclustertest/v1/rest"
+	"github.com/masnax/microclustertest/v1/rest/types"
 )
 
 var api10Cmd = rest.Endpoint{
