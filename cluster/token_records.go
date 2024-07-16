@@ -4,8 +4,8 @@ import (
 	"crypto/x509"
 
 	"github.com/canonical/lxd/shared"
-	internalTypes "github.com/masnax/microclustertest/internal/rest/types"
-	"github.com/masnax/microclustertest/rest/types"
+	internalTypes "github.com/masnax/microclustertest/v5/internal/rest/types"
+	"github.com/masnax/microclustertest/v5/rest/types"
 )
 
 // Code generation directives.

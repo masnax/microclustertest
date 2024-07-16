@@ -5,7 +5,7 @@ import (
 	"time"
 
 	"github.com/canonical/lxd/shared/api"
-	"github.com/masnax/microclustertest/internal/rest/types"
+	"github.com/masnax/microclustertest/v5/internal/rest/types"
 )
 
 // AddTrustStoreEntry adds a new record to the truststore on all cluster members.

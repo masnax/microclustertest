@@ -6,7 +6,7 @@ import (
 
 	"github.com/canonical/lxd/shared/api"
 
-	"github.com/masnax/microclustertest/internal/rest/types"
+	"github.com/masnax/microclustertest/v5/internal/rest/types"
 )
 
 // GetSQL gets a SQL dump of the database.

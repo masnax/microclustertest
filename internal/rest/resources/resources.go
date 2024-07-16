@@ -1,8 +1,8 @@
 package resources
 
 import (
-	"github.com/masnax/microclustertest/internal/rest/client"
-	"github.com/masnax/microclustertest/rest"
+	"github.com/masnax/microclustertest/v5/internal/rest/client"
+	"github.com/masnax/microclustertest/v5/rest"
 )
 
 // Resources represents all the resources served over the same path.

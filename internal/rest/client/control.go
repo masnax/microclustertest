@@ -3,7 +3,7 @@ package client
 import (
 	"context"
 
-	"github.com/masnax/microclustertest/internal/rest/types"
+	"github.com/masnax/microclustertest/v5/internal/rest/types"
 )
 
 // ControlDaemon posts control data to the daemon.

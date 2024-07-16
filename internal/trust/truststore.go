@@ -6,7 +6,7 @@ import (
 
 	"github.com/fsnotify/fsnotify"
 
-	"github.com/masnax/microclustertest/internal/sys"
+	"github.com/masnax/microclustertest/v5/internal/sys"
 )
 
 // Store represents a directory of remotes watched by the fsnotify Watcher.

@@ -13,10 +13,10 @@ import (
 	"github.com/canonical/lxd/lxd/db/query"
 	"github.com/canonical/lxd/lxd/response"
 
-	"github.com/masnax/microclustertest/internal/rest/access"
-	"github.com/masnax/microclustertest/internal/rest/types"
-	"github.com/masnax/microclustertest/internal/state"
-	"github.com/masnax/microclustertest/rest"
+	"github.com/masnax/microclustertest/v5/internal/rest/access"
+	"github.com/masnax/microclustertest/v5/internal/rest/types"
+	"github.com/masnax/microclustertest/v5/internal/state"
+	"github.com/masnax/microclustertest/v5/rest"
 )
 
 var sqlCmd = rest.Endpoint{
