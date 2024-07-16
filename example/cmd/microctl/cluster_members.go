@@ -4,8 +4,8 @@ import (
 	"sort"
 
 	cli "github.com/canonical/lxd/shared/cmd"
-	"github.com/masnax/microclustertest/v1/client"
-	"github.com/masnax/microclustertest/v1/microcluster"
+	"github.com/masnax/microclustertest/v4/client"
+	"github.com/masnax/microclustertest/v4/microcluster"
 	"github.com/spf13/cobra"
 )
 

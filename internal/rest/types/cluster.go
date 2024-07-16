@@ -3,8 +3,8 @@ package types
 import (
 	"time"
 
-	"github.com/masnax/microclustertest/v1/internal/extensions"
-	"github.com/masnax/microclustertest/v1/rest/types"
+	"github.com/masnax/microclustertest/v4/internal/extensions"
+	"github.com/masnax/microclustertest/v4/rest/types"
 )
 
 // ClusterMember represents information about a dqlite cluster member.

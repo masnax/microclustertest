@@ -7,8 +7,8 @@ import (
 
 	"github.com/canonical/lxd/lxd/response"
 
-	"github.com/masnax/microclustertest/v1/internal/state"
-	"github.com/masnax/microclustertest/v1/rest"
+	"github.com/masnax/microclustertest/v4/internal/state"
+	"github.com/masnax/microclustertest/v4/rest"
 )
 
 var databaseCmd = rest.Endpoint{

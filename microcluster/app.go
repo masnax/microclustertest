@@ -17,15 +17,15 @@ import (
 	"github.com/canonical/lxd/shared/logger"
 	"golang.org/x/sys/unix"
 
-	"github.com/masnax/microclustertest/v1/client"
-	"github.com/masnax/microclustertest/v1/cluster"
-	"github.com/masnax/microclustertest/v1/config"
-	"github.com/masnax/microclustertest/v1/internal/daemon"
-	internalClient "github.com/masnax/microclustertest/v1/internal/rest/client"
-	internalTypes "github.com/masnax/microclustertest/v1/internal/rest/types"
-	"github.com/masnax/microclustertest/v1/internal/sys"
-	"github.com/masnax/microclustertest/v1/rest"
-	"github.com/masnax/microclustertest/v1/rest/types"
+	"github.com/masnax/microclustertest/v4/client"
+	"github.com/masnax/microclustertest/v4/cluster"
+	"github.com/masnax/microclustertest/v4/config"
+	"github.com/masnax/microclustertest/v4/internal/daemon"
+	internalClient "github.com/masnax/microclustertest/v4/internal/rest/client"
+	internalTypes "github.com/masnax/microclustertest/v4/internal/rest/types"
+	"github.com/masnax/microclustertest/v4/internal/sys"
+	"github.com/masnax/microclustertest/v4/rest"
+	"github.com/masnax/microclustertest/v4/rest/types"
 )
 
 // MicroCluster contains some basic filesystem information for interacting with the MicroCluster daemon.
