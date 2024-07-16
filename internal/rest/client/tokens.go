@@ -5,7 +5,7 @@ import (
 	"time"
 
 	"github.com/canonical/lxd/shared/api"
-	"github.com/masnax/microclustertest/v4/internal/rest/types"
+	"github.com/masnax/microclustertest/internal/rest/types"
 )
 
 // RequestToken requests a join token with the given name.

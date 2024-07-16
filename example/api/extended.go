@@ -8,12 +8,12 @@ import (
 
 	"github.com/canonical/lxd/lxd/response"
 
-	"github.com/masnax/microclustertest/v4/client"
-	extendedTypes "github.com/masnax/microclustertest/v4/example/api/types"
-	extendedClient "github.com/masnax/microclustertest/v4/example/client"
-	"github.com/masnax/microclustertest/v4/rest"
-	"github.com/masnax/microclustertest/v4/rest/types"
-	"github.com/masnax/microclustertest/v4/state"
+	"github.com/masnax/microclustertest/client"
+	extendedTypes "github.com/masnax/microclustertest/example/api/types"
+	extendedClient "github.com/masnax/microclustertest/example/client"
+	"github.com/masnax/microclustertest/rest"
+	"github.com/masnax/microclustertest/rest/types"
+	"github.com/masnax/microclustertest/state"
 )
 
 // This is an example extended endpoint on the /1.0 endpoint, reachable at /1.0/extended.

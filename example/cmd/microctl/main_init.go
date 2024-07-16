@@ -6,7 +6,7 @@ import (
 	"strings"
 	"time"
 
-	"github.com/masnax/microclustertest/v4/microcluster"
+	"github.com/masnax/microclustertest/microcluster"
 	"github.com/spf13/cobra"
 )
 

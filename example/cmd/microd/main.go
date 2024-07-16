@@ -7,13 +7,13 @@ import (
 	"github.com/canonical/lxd/shared/logger"
 	"github.com/spf13/cobra"
 
-	"github.com/masnax/microclustertest/v4/config"
-	"github.com/masnax/microclustertest/v4/example/api"
-	"github.com/masnax/microclustertest/v4/example/database"
-	"github.com/masnax/microclustertest/v4/example/version"
-	"github.com/masnax/microclustertest/v4/internal/extensions"
-	"github.com/masnax/microclustertest/v4/microcluster"
-	"github.com/masnax/microclustertest/v4/state"
+	"github.com/masnax/microclustertest/config"
+	"github.com/masnax/microclustertest/example/api"
+	"github.com/masnax/microclustertest/example/database"
+	"github.com/masnax/microclustertest/example/version"
+	"github.com/masnax/microclustertest/internal/extensions"
+	"github.com/masnax/microclustertest/microcluster"
+	"github.com/masnax/microclustertest/state"
 )
 
 // Debug indicates whether to log debug messages or not.
