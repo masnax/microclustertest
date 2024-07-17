@@ -5,6 +5,7 @@ go 1.22.0
 retract v1.0.0
 retract v1.0.1
 retract v1.0.2
+retract v0.0.0
 
 require (
 	github.com/canonical/go-dqlite v1.21.0
