@@ -2,6 +2,10 @@ module github.com/masnax/microclustertest
 
 go 1.22.0
 
+retract v1.0.0
+retract v1.0.1
+retract v1.0.2
+
 require (
 	github.com/canonical/go-dqlite v1.21.0
 	github.com/canonical/lxd v0.0.0-20240429144238-eef2152089af
