@@ -3,7 +3,7 @@ module github.com/masnax/microclustertest/v2
 go 1.22.0
 
 require (
-	github.com/canonical/go-dqlite v1.21.0
+	github.com/canonical/go-dqlite v1.22.0
 	github.com/canonical/lxd v0.0.0-20240429144238-eef2152089af
 	github.com/fsnotify/fsnotify v1.7.0
 	github.com/google/renameio v1.0.1
